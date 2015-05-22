@@ -9,7 +9,7 @@ Written by Hao-Wen Sim, May 2015
 My tidydataset.txt file can be read directly from Coursera with the following code:
 
 ```
-tidydataset <- read.table("https://s3.amazonaws.com/coursera-uploads/user-1489c57441b0e38ffc72daef/973501/asst-3/bba8fb80004711e59f12ffcb0298def7.txt", header = TRUE)
+tidydataset <- read.table("http://s3.amazonaws.com/coursera-uploads/user-1489c57441b0e38ffc72daef/973501/asst-3/bba8fb80004711e59f12ffcb0298def7.txt", header = TRUE)
 View(tidydataset)
 ```
 
